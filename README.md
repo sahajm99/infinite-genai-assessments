@@ -1,5 +1,8 @@
 # Infinite — GenAI Engineer Assessments
 
+> **Prerequisites:** Docker + an **OpenAI or Groq API key**. Copy `.env.example` to `.env`
+> and add your key (see [Quick start](#quick-start)). Unit tests need no key.
+
 Four GenAI prototype services, built on **one shared engine** (`rag_core`) rather than four
 copies of the same machinery. Each task is independently runnable and reviewable, and every
 app maps its design decisions to the assessment rubric.
