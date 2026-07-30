@@ -42,6 +42,23 @@ docker compose up             # builds + runs all four (+ redis)
 
 Run a single task: `docker compose up task1` (or task2 / task3 / task4).
 
+## Using Groq (open-source models) instead of OpenAI
+
+Every LLM call goes through one OpenAI-compatible client, so you can point it at **Groq**
+with no code changes. Groq has **no embeddings API**, so pair it with local HuggingFace
+embeddings (already built in via `EMBED_BACKEND=local`). In your `.env`:
+
+```bash
+OPENAI_API_KEY=gsk_your_groq_key
+OPENAI_BASE_URL=https://api.groq.com/openai/v1
+LLM_MODEL=llama-3.3-70b-versatile     # or llama-3.1-8b-instant, openai/gpt-oss-20b
+EMBED_BACKEND=local                    # embeddings run offline (sentence-transformers)
+```
+
+Then `docker compose up` as usual. First run downloads a ~90 MB embedding model; the Docker
+images include `sentence-transformers` so nothing else is needed. Generation is served by
+Groq; retrieval/scoring embeddings are computed locally.
+
 ## Local dev (no Docker)
 
 ```bash

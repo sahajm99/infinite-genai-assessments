@@ -4,7 +4,7 @@ WORKDIR /srv
 
 COPY pyproject.toml ./
 COPY rag_core ./rag_core
-RUN pip install --no-cache-dir .
+RUN pip install --no-cache-dir ".[local-embed]"
 
 COPY task4_resume_ranker ./task4_resume_ranker
 WORKDIR /srv/task4_resume_ranker

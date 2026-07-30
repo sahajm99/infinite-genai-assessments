@@ -9,8 +9,9 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_file=".env", extra="ignore")
 
-    # --- OpenAI ---
+    # --- LLM provider (OpenAI-compatible: OpenAI, Groq, Together, etc.) ---
     openai_api_key: str = ""
+    openai_base_url: str = ""   # e.g. https://api.groq.com/openai/v1 for Groq
     llm_model: str = "gpt-4o-mini"
     embed_model: str = "text-embedding-3-small"
 

@@ -15,7 +15,10 @@ class OpenAIEmbedder:
         from openai import OpenAI
 
         self.settings = settings or get_settings()
-        self.client = OpenAI(api_key=self.settings.openai_api_key)
+        kwargs = {"api_key": self.settings.openai_api_key}
+        if self.settings.openai_base_url:
+            kwargs["base_url"] = self.settings.openai_base_url
+        self.client = OpenAI(**kwargs)
 
     def embed(self, texts: list[str]) -> list[list[float]]:
         if not texts:

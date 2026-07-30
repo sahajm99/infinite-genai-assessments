@@ -4,7 +4,7 @@ WORKDIR /srv
 
 COPY pyproject.toml ./
 COPY rag_core ./rag_core
-RUN pip install --no-cache-dir . requests streamlit
+RUN pip install --no-cache-dir ".[local-embed]" requests streamlit
 
 COPY task1_clinical_rag ./task1_clinical_rag
 WORKDIR /srv/task1_clinical_rag

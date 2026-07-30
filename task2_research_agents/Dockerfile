@@ -4,7 +4,7 @@ WORKDIR /srv
 
 COPY pyproject.toml ./
 COPY rag_core ./rag_core
-RUN pip install --no-cache-dir ".[agents]"
+RUN pip install --no-cache-dir ".[agents,local-embed]"
 
 COPY task2_research_agents ./task2_research_agents
 WORKDIR /srv/task2_research_agents

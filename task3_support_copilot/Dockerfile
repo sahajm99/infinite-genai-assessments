@@ -4,7 +4,7 @@ WORKDIR /srv
 
 COPY pyproject.toml ./
 COPY rag_core ./rag_core
-RUN pip install --no-cache-dir . redis requests streamlit
+RUN pip install --no-cache-dir ".[local-embed,redis]" requests streamlit
 
 COPY task3_support_copilot ./task3_support_copilot
 WORKDIR /srv/task3_support_copilot

@@ -18,7 +18,10 @@ class LLMClient:
         self.settings = settings or get_settings()
         if not self.settings.has_key:
             raise LLMError("OPENAI_API_KEY is not set.")
-        self.client = OpenAI(api_key=self.settings.openai_api_key)
+        kwargs = {"api_key": self.settings.openai_api_key}
+        if self.settings.openai_base_url:
+            kwargs["base_url"] = self.settings.openai_base_url  # e.g. Groq
+        self.client = OpenAI(**kwargs)
 
     def complete(self, messages: list[dict], temperature: float = 0.2, **kw) -> str:
         try:
