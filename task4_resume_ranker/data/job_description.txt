@@ -1,0 +1,16 @@
+Senior Backend Engineer — Payments Platform
+
+We are hiring a Senior Backend Engineer to build and scale our payments platform.
+
+Requirements:
+- 5+ years of backend software engineering experience.
+- Strong Python and experience building REST APIs (FastAPI, Flask, or Django).
+- Production experience with PostgreSQL and designing relational schemas.
+- Experience deploying services on AWS (ECS, Lambda, or EKS).
+- Familiarity with containerization (Docker) and CI/CD.
+- Experience with message queues (Kafka, SQS, or RabbitMQ).
+
+Nice to have:
+- Kubernetes in production.
+- Experience with payment systems or financial compliance (PCI-DSS).
+- Team leadership or mentoring experience.

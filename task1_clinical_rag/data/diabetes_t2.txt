@@ -1,0 +1,21 @@
+TYPE 2 DIABETES — CLINICAL REFERENCE (SYNTHETIC / FICTIONAL)
+
+Diagnosis.
+Type 2 diabetes is diagnosed by any of: fasting plasma glucose of 126 mg/dL or higher,
+a 2-hour plasma glucose of 200 mg/dL or higher during an oral glucose tolerance test,
+an HbA1c of 6.5% or higher, or a random glucose of 200 mg/dL or higher with classic
+symptoms. Prediabetes corresponds to an HbA1c of 5.7% to 6.4%.
+
+First-line therapy.
+Metformin is the preferred initial pharmacologic agent for type 2 diabetes, combined with
+lifestyle modification. Metformin is contraindicated when the eGFR is below 30 mL/min.
+
+Glycemic targets.
+A reasonable HbA1c goal for many non-pregnant adults is below 7.0%. Less stringent goals
+(for example below 8.0%) may be appropriate for older adults or those with limited life
+expectancy or significant comorbidities.
+
+Agents with cardiovascular and renal benefit.
+In patients with established cardiovascular disease, heart failure, or chronic kidney
+disease, an SGLT2 inhibitor or a GLP-1 receptor agonist is recommended in addition to
+metformin, independent of the HbA1c level.

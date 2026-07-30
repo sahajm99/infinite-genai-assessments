@@ -1,0 +1,16 @@
+Tomas Alvarez
+Software Engineer
+
+Summary: Full-stack engineer, 6 years, strong on cloud infrastructure.
+
+Experience:
+- Software Engineer, DataForge (2018-2024, 6 years): Built Python microservices with
+  FastAPI. Heavy AWS usage (EKS, Lambda, SQS). Ran Kubernetes in production. Postgres and
+  DynamoDB. Mentored two junior engineers. Docker + Jenkins CI/CD.
+
+Skills: Python, FastAPI, AWS (EKS, Lambda, SQS), Kubernetes, Docker, PostgreSQL, DynamoDB,
+CI/CD, mentoring.
+
+Education: M.S in Computer Science.
+
+Certifications: Certified Kubernetes Administrator (CKA).

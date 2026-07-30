@@ -1,0 +1,15 @@
+Daniel Osei
+Backend Engineer
+
+Summary: Backend engineer with 4 years of experience in Python web services.
+
+Experience:
+- Backend Engineer, Bookly (2020-2024, 4 years): Built REST APIs in Python/Flask backed by
+  PostgreSQL. Containerized services with Docker. Set up GitHub Actions for CI. No cloud
+  deployment ownership beyond staging.
+
+Skills: Python, Flask, PostgreSQL, Docker, CI/CD, REST APIs.
+
+Education: B.Sc in Software Engineering.
+
+Certifications: none.

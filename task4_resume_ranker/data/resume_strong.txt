@@ -1,0 +1,19 @@
+Priya Nair
+Senior Backend Engineer
+
+Summary: Backend engineer with 7 years building high-scale Python services for fintech.
+
+Experience:
+- Senior Backend Engineer, PayStream (2019-2024, 5 years): Led a team of 4 building a
+  payments API in Python/FastAPI on PostgreSQL. Deployed on AWS ECS with Docker and a
+  GitLab CI/CD pipeline. Used Kafka for transaction event streaming. Owned PCI-DSS scoped
+  services.
+- Backend Engineer, ShopGrid (2017-2019, 2 years): Built REST APIs in Django, PostgreSQL,
+  deployed on AWS Lambda.
+
+Skills: Python, FastAPI, Django, PostgreSQL, AWS (ECS, Lambda), Docker, Kafka, CI/CD,
+Kubernetes, REST API design.
+
+Education: B.Tech in Computer Science.
+
+Certifications: AWS Certified Solutions Architect – Associate.

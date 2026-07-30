@@ -1,0 +1,19 @@
+ASTHMA — CLINICAL REFERENCE (SYNTHETIC / FICTIONAL)
+
+Classification.
+Asthma severity ranges from intermittent to mild, moderate, and severe persistent, based
+on daytime symptoms, nighttime awakenings, rescue inhaler use, and lung function.
+
+Reliever therapy.
+Short-acting beta-2 agonists (SABA) such as albuterol provide rapid relief of acute
+bronchospasm. Current guidance also supports as-needed low-dose inhaled corticosteroid
+combined with formoterol as reliever therapy in adults and adolescents.
+
+Controller therapy.
+Inhaled corticosteroids (ICS) are the cornerstone of long-term controller therapy for
+persistent asthma. Step-up options include combining an ICS with a long-acting beta-2
+agonist (LABA). A LABA should never be used as monotherapy in asthma.
+
+Acute exacerbation.
+Treatment of an acute asthma exacerbation includes repeated SABA, systemic
+corticosteroids, and supplemental oxygen to maintain oxygen saturation of 93-95%.

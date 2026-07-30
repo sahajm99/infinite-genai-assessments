@@ -1,0 +1,21 @@
+ANTICOAGULATION — CLINICAL REFERENCE (SYNTHETIC / FICTIONAL)
+
+Warfarin monitoring.
+Warfarin therapy is monitored using the International Normalized Ratio (INR). For most
+indications, including atrial fibrillation and treatment of venous thromboembolism, the
+target INR range is 2.0 to 3.0. For patients with a mechanical mitral valve, a higher
+target INR of 2.5 to 3.5 is used.
+
+Direct oral anticoagulants (DOACs).
+DOACs such as apixaban, rivaroxaban, dabigatran, and edoxaban do not require routine INR
+monitoring. They are preferred over warfarin for non-valvular atrial fibrillation in many
+patients. DOACs are not recommended for patients with mechanical heart valves.
+
+Reversal.
+The reversal agent for warfarin is vitamin K, with 4-factor prothrombin complex
+concentrate used for major bleeding. Idarucizumab reverses dabigatran. Andexanet alfa
+reverses factor Xa inhibitors such as apixaban and rivaroxaban.
+
+Bleeding risk.
+The HAS-BLED score estimates bleeding risk in patients with atrial fibrillation who are
+being considered for anticoagulation.

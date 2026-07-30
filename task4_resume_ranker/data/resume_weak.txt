@@ -1,0 +1,14 @@
+Meera Kapoor
+Frontend Engineer
+
+Summary: Frontend engineer with 3 years building web UIs.
+
+Experience:
+- Frontend Engineer, BrightApps (2021-2024, 3 years): Built responsive interfaces in React
+  and TypeScript. Integrated REST APIs on the client side. Some Node.js scripting.
+
+Skills: JavaScript, TypeScript, React, HTML, CSS, Node.js, Figma.
+
+Education: B.A in Design, with a coding bootcamp certificate.
+
+Certifications: Meta Front-End Developer Certificate.

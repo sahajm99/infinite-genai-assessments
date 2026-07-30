@@ -1,0 +1,35 @@
+# One command to run any/all four apps. Build context is the repo root so each
+# image can install the shared rag_core package.
+services:
+  task1:
+    build:
+      context: .
+      dockerfile: task1_clinical_rag/Dockerfile
+    ports: ["8001:8001"]
+    env_file: [.env]
+
+  task2:
+    build:
+      context: .
+      dockerfile: task2_research_agents/Dockerfile
+    ports: ["8002:8002"]
+    env_file: [.env]
+
+  task3:
+    build:
+      context: .
+      dockerfile: task3_support_copilot/Dockerfile
+    ports: ["8003:8003"]
+    env_file: [.env]
+    depends_on: [redis]
+
+  task4:
+    build:
+      context: .
+      dockerfile: task4_resume_ranker/Dockerfile
+    ports: ["8004:8004"]
+    env_file: [.env]
+
+  redis:
+    image: redis:7-alpine
+    ports: ["6379:6379"]

@@ -1,0 +1,20 @@
+SEPSIS — CLINICAL REFERENCE (SYNTHETIC / FICTIONAL)
+
+Definition.
+Sepsis is life-threatening organ dysfunction caused by a dysregulated host response to
+infection. Septic shock is sepsis with persistent hypotension requiring vasopressors to
+maintain a mean arterial pressure of 65 mmHg or higher and a serum lactate above 2 mmol/L
+despite adequate fluid resuscitation.
+
+Early management (first hour bundle).
+Measure lactate, obtain blood cultures before antibiotics, administer broad-spectrum
+antibiotics, begin rapid administration of 30 mL/kg crystalloid for hypotension or lactate
+of 4 mmol/L or higher, and apply vasopressors if the patient remains hypotensive.
+
+Vasopressor of choice.
+Norepinephrine is the first-line vasopressor for septic shock. Vasopressin or epinephrine
+may be added if the target mean arterial pressure is not achieved.
+
+Source control.
+Identifying and controlling the source of infection (for example draining an abscess) is
+essential and should be pursued as soon as feasible.
